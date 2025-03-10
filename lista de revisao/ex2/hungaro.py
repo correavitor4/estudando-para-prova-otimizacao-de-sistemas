@@ -3,10 +3,10 @@ from scipy.optimize import linear_sum_assignment
 
 # Esse é o exemplo que está no Slide "slide_4-1_metodo_hungaro" na página 29 de 30
 cost_matrix = np.array([
-    [90, 75, 75, 80],
-    [35, 85, 55, 65],
-    [125, 95, 90, 105],
-    [45, 110, 95, 115]
+    [20, 25, 22, 28],
+    [15, 18, 23, 17],
+    [19, 17, 21, 24],
+    [25, 23, 24, 24]
 ])
 
 # Resolver o problema usando o algoritmo húngaro
